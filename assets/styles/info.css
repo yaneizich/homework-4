@@ -1,0 +1,166 @@
+#main {
+    font-family: Lack, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    margin: auto;
+    padding: 324px 174px 276px;
+    /*padding: 324px calc(100vw-360px*4+44px*3) 276px;*/
+}
+
+.container--block1 {
+    display: inline-block;
+    border: 2px solid rgba(66, 221, 255, 1);
+    height: 480px;
+    width: 360px;
+    border-radius: 24px;
+    margin: 5px 44px auto auto;
+    box-sizing: content-box;
+}
+
+.container--block2 {
+    display: inline-block;
+    border: 2px solid rgba(240, 105, 101, 1);
+    height: 480px;
+    width: 360px;
+    padding: 50px auto;
+    border-radius: 24px;
+    margin: 5px 44px auto auto;
+    box-sizing: content-box;
+}
+
+.container--block3 {
+    display: inline-block;
+    border: 2px solid rgba(94, 45, 246, 1);
+    height: 480px;
+    width: 360px;
+    border-radius: 24px;
+    margin: 5px 44px auto auto;
+    box-sizing: content-box;
+}
+
+.container--block4 {
+    display: inline-block;
+    border: 2px solid rgba(28, 34, 31, 1);
+    height: 480px;
+    width: 360px;
+    border-radius: 24px;
+    margin: 5px 44px auto auto;
+    box-sizing: content-box;
+}
+
+.container--block1-image,
+.container--block2-image,
+.container--block3-image,
+.container--block4-image {
+    background-image: url(/assets/images/TM\ member.png);
+}
+
+.container--block1-header,
+.container--block2-header,
+.container--block3-header,
+.container--block4-header {
+    font-family: 'Lack';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(15, 11, 34, 0.3);
+    margin: 72px auto 111px;
+}
+
+
+.container--block1-info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+}
+
+.container--block2-info {
+    font-family: Lack, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    ;
+}
+
+.container--block3-info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+}
+
+.container--block4-info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+}
+
+.container--block1-button {
+    height: 54px;
+    width: 216px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #42DDFF -17.86%, #50C9FD 116.28%);
+    font-family: Lack, sans-serif;
+    border: 1px solid;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 80px auto 36px;
+    text-transform: uppercase;
+  
+}
+
+.container--block2-button {
+    height: 54px;
+    width: 216px;
+    border-radius: 12px;
+    background: linear-gradient(52.04deg, #F06965 -13.43%, #F58241 119.48%);
+    font-family: Lack, sans-serif;
+    border: 1px solid;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 80px auto 36px;
+    text-transform: uppercase;
+  
+}
+
+.container--block3-button {
+    height: 54px;
+    width: 216px;
+    border-radius: 12px;
+    background: linear-gradient(54.77deg, #5E2DF7 -18.35%, #331193 120.33%);
+    font-family: Lack, sans-serif;
+    border: 1px solid;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 75px auto 36px;
+    text-transform: uppercase;
+  
+}
+
+.container--block4-button {
+    height: 54px;
+    width: 216px;
+    border-radius: 12px;
+    background: linear-gradient(54.77deg, #1C221F -18.35%, #392D49 109.49%, #57456F 120.33%);
+    font-family: Lack, sans-serif;
+    border: 1px solid;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 75px auto 36px;
+    text-transform: uppercase;
+  
+}

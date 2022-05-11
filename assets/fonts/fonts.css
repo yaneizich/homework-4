@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Lack" ;
+    font-style: normal;
+    font-weight: 400;
+    src: url(./Lackregular.ttf) format("truetype");
+    src: url(./Lackregular.woff) format("woff");
+    src: url(./Lackregular.woff2) format("woff2");
+}
